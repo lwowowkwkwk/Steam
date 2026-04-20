@@ -14,10 +14,10 @@ Modifications:
 
 Build instructions: Visual Studio 2019 with v141\_xp toolset. Just compile and place in /bin.
 
-==========================================================================================================================================
                                                  WARNINGS
-==========================================================================================================================================
 
 
 This is an alpha version, but in version 2 it will become a beta version.
+
+Please visit we site : http://lwowowkwkw.temp.swtest.ru/
 
