@@ -1,0 +1,39 @@
+#include <windows.h>
+#include "Resource.h"
+
+// Icons
+IDI_STEAMFORK           ICON                    "..\\resources\\app.ico"
+IDI_SMALL               ICON                    "..\\resources\\app.ico"
+
+// Version Info
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION     1,0,0,0
+PRODUCTVERSION  1,0,0,0
+FILEFLAGSMASK   0x3fL
+FILEFLAGS       0x0L
+FILEOS          VOS_NT_WINDOWS32
+FILETYPE        VFT_APP
+FILESUBTYPE     0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "SteamFork Team"
+            VALUE "FileDescription", "Steam Fork - Simplified Steam Client"
+            VALUE "FileVersion", "1.0.0.0"
+            VALUE "InternalName", "SteamFork"
+            VALUE "LegalCopyright", "Copyright (C) 2024"
+            VALUE "OriginalFilename", "SteamFork.exe"
+            VALUE "ProductName", "Steam Fork"
+            VALUE "ProductVersion", "1.0.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+// Manifest для поддержки DPI awareness и тем
+1 RT_MANIFEST "..\\resources\\steam_fork.manifest"
